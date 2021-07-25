@@ -1,0 +1,1430 @@
+{
+  "coverage": {
+    "APIConsumer": {
+      "branches": {
+        "BufferChainlink.init": [
+          1,
+          0,
+          1
+        ],
+        "BufferChainlink.max": [
+          0,
+          0,
+          1
+        ],
+        "BufferChainlink.write": [
+          2,
+          0,
+          2
+        ],
+        "BufferChainlink.writeInt": [
+          1,
+          0,
+          1
+        ],
+        "BufferChainlink.writeUint8": [
+          1,
+          0,
+          1
+        ],
+        "CBORChainlink.encodeInt": [
+          2,
+          1,
+          3
+        ],
+        "CBORChainlink.encodeType": [
+          4,
+          3,
+          5
+        ],
+        "ChainlinkClient.sendChainlinkRequestTo": [
+          1,
+          0,
+          1
+        ]
+      },
+      "statements": {
+        "APIConsumer.fulfill": [
+          1,
+          1
+        ],
+        "APIConsumer.requestVolumeData": [
+          4,
+          4
+        ],
+        "APIConsumer.stringToBytes32": [
+          0,
+          1
+        ],
+        "BufferChainlink.append": [
+          1,
+          1
+        ],
+        "BufferChainlink.appendInt": [
+          1,
+          1
+        ],
+        "BufferChainlink.appendUint8": [
+          1,
+          1
+        ],
+        "BufferChainlink.init": [
+          1,
+          2
+        ],
+        "BufferChainlink.max": [
+          0,
+          2
+        ],
+        "BufferChainlink.resize": [
+          0,
+          2
+        ],
+        "BufferChainlink.write": [
+          5,
+          6
+        ],
+        "BufferChainlink.writeInt": [
+          1,
+          2
+        ],
+        "BufferChainlink.writeUint8": [
+          1,
+          2
+        ],
+        "CBORChainlink.encodeBigNum": [
+          0,
+          2
+        ],
+        "CBORChainlink.encodeBytes": [
+          0,
+          1
+        ],
+        "CBORChainlink.encodeInt": [
+          1,
+          4
+        ],
+        "CBORChainlink.encodeSignedBigNum": [
+          0,
+          2
+        ],
+        "CBORChainlink.encodeString": [
+          2,
+          2
+        ],
+        "CBORChainlink.encodeType": [
+          5,
+          9
+        ],
+        "Chainlink.add": [
+          2,
+          2
+        ],
+        "Chainlink.addInt": [
+          2,
+          2
+        ],
+        "Chainlink.initialize": [
+          4,
+          4
+        ],
+        "ChainlinkClient.buildChainlinkRequest": [
+          1,
+          1
+        ],
+        "ChainlinkClient.encodeRequest": [
+          1,
+          1
+        ],
+        "ChainlinkClient.sendChainlinkRequestTo": [
+          6,
+          6
+        ]
+      },
+      "totals": {
+        "branches": [
+          12,
+          4,
+          15
+        ],
+        "statements": [
+          40,
+          61
+        ]
+      }
+    },
+    "LinkToken": {
+      "branches": {
+        "ERC677Token.transferAndCall": [
+          0,
+          1,
+          1
+        ],
+        "LinkToken.transfer": [
+          0,
+          0,
+          2
+        ],
+        "StandardToken.decreaseApproval": [
+          0,
+          0,
+          1
+        ]
+      },
+      "statements": {
+        "BasicToken.balanceOf": [
+          1,
+          1
+        ],
+        "BasicToken.transfer": [
+          4,
+          4
+        ],
+        "ERC677Token.contractFallback": [
+          1,
+          1
+        ],
+        "ERC677Token.isContract": [
+          1,
+          1
+        ],
+        "ERC677Token.transferAndCall": [
+          4,
+          4
+        ],
+        "LinkToken.approve": [
+          0,
+          1
+        ],
+        "LinkToken.transfer": [
+          1,
+          1
+        ],
+        "LinkToken.transferAndCall": [
+          1,
+          1
+        ],
+        "LinkToken.transferFrom": [
+          0,
+          1
+        ],
+        "SafeMathChainlink.add": [
+          2,
+          2
+        ],
+        "SafeMathChainlink.sub": [
+          2,
+          2
+        ]
+      },
+      "totals": {
+        "branches": [
+          0,
+          1,
+          4
+        ],
+        "statements": [
+          17,
+          19
+        ]
+      }
+    },
+    "MockOracle": {
+      "branches": {
+        "LinkTokenReceiver.onTokenTransfer": [
+          1,
+          0,
+          2
+        ],
+        "MockOracle.cancelOracleRequest": [
+          0,
+          0,
+          1
+        ],
+        "MockOracle.fulfillOracleRequest": [
+          1,
+          0,
+          1
+        ],
+        "MockOracle.oracleRequest": [
+          1,
+          0,
+          2
+        ],
+        "SafeMathChainlink.add": [
+          1,
+          0,
+          1
+        ]
+      },
+      "statements": {
+        "LinkTokenReceiver.onTokenTransfer": [
+          1,
+          1
+        ],
+        "MockOracle.cancelOracleRequest": [
+          0,
+          5
+        ],
+        "MockOracle.fulfillOracleRequest": [
+          2,
+          2
+        ],
+        "MockOracle.getChainlinkToken": [
+          1,
+          1
+        ],
+        "MockOracle.oracleRequest": [
+          3,
+          3
+        ],
+        "SafeMathChainlink.add": [
+          2,
+          2
+        ]
+      },
+      "totals": {
+        "branches": [
+          4,
+          0,
+          7
+        ],
+        "statements": [
+          9,
+          14
+        ]
+      }
+    },
+    "MockV3Aggregator": {
+      "branches": {},
+      "statements": {
+        "MockV3Aggregator.description": [
+          0,
+          1
+        ],
+        "MockV3Aggregator.getRoundData": [
+          0,
+          1
+        ],
+        "MockV3Aggregator.latestRoundData": [
+          1,
+          1
+        ],
+        "MockV3Aggregator.updateAnswer": [
+          0,
+          6
+        ],
+        "MockV3Aggregator.updateRoundData": [
+          0,
+          6
+        ]
+      },
+      "totals": {
+        "branches": [
+          0,
+          0,
+          0
+        ],
+        "statements": [
+          1,
+          15
+        ]
+      }
+    },
+    "PriceFeedConsumer": {
+      "branches": {},
+      "statements": {},
+      "totals": {
+        "branches": [
+          0,
+          0,
+          0
+        ],
+        "statements": [
+          0,
+          0
+        ]
+      }
+    },
+    "VRFCoordinatorMock": {
+      "branches": {
+        "VRFCoordinatorMock.callBackWithRandomness": [
+          1,
+          0,
+          1
+        ]
+      },
+      "statements": {
+        "VRFCoordinatorMock.callBackWithRandomness": [
+          1,
+          1
+        ],
+        "VRFCoordinatorMock.onTokenTransfer": [
+          1,
+          1
+        ]
+      },
+      "totals": {
+        "branches": [
+          1,
+          0,
+          1
+        ],
+        "statements": [
+          2,
+          2
+        ]
+      }
+    }
+  },
+  "highlights": {
+    "branches": {
+      "APIConsumer": {
+        "0": [],
+        "1": [
+          [
+            3409,
+            3469,
+            "yellow",
+            ""
+          ]
+        ],
+        "10": [
+          [
+            1077,
+            1095,
+            "orange",
+            ""
+          ],
+          [
+            1995,
+            2000,
+            "red",
+            ""
+          ],
+          [
+            2815,
+            2833,
+            "yellow",
+            ""
+          ],
+          [
+            2845,
+            2869,
+            "orange",
+            ""
+          ],
+          [
+            8764,
+            8788,
+            "orange",
+            ""
+          ],
+          [
+            5093,
+            5112,
+            "orange",
+            ""
+          ]
+        ],
+        "11": [
+          [
+            1800,
+            1828,
+            "orange",
+            ""
+          ],
+          [
+            1884,
+            1910,
+            "orange",
+            ""
+          ],
+          [
+            1960,
+            1970,
+            "yellow",
+            ""
+          ],
+          [
+            813,
+            824,
+            "green",
+            ""
+          ],
+          [
+            894,
+            907,
+            "green",
+            ""
+          ],
+          [
+            1005,
+            1020,
+            "orange",
+            ""
+          ],
+          [
+            1118,
+            1137,
+            "orange",
+            ""
+          ],
+          [
+            1235,
+            1262,
+            "yellow",
+            ""
+          ]
+        ],
+        "12": [],
+        "14": [],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      },
+      "LinkToken": {
+        "0": [
+          [
+            606,
+            621,
+            "yellow",
+            ""
+          ]
+        ],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [],
+        "7": [
+          [
+            2832,
+            2859,
+            "red",
+            ""
+          ]
+        ],
+        "8": [
+          [
+            2238,
+            2262,
+            "red",
+            ""
+          ],
+          [
+            2266,
+            2293,
+            "red",
+            ""
+          ]
+        ]
+      },
+      "MockOracle": {
+        "13": [
+          [
+            967,
+            973,
+            "yellow",
+            ""
+          ]
+        ],
+        "17": [
+          [
+            5114,
+            5132,
+            "red",
+            ""
+          ],
+          [
+            3800,
+            3839,
+            "yellow",
+            ""
+          ],
+          [
+            6102,
+            6127,
+            "red",
+            ""
+          ],
+          [
+            2586,
+            2635,
+            "yellow",
+            ""
+          ]
+        ],
+        "2": [
+          [
+            1584,
+            1617,
+            "red",
+            ""
+          ],
+          [
+            1372,
+            1379,
+            "yellow",
+            ""
+          ]
+        ],
+        "6": [],
+        "8": []
+      },
+      "MockV3Aggregator": {
+        "18": [],
+        "3": [],
+        "4": [],
+        "5": []
+      },
+      "PriceFeedConsumer": {
+        "16": [],
+        "5": []
+      },
+      "VRFCoordinatorMock": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "5": [
+          [
+            1039,
+            1053,
+            "yellow",
+            ""
+          ]
+        ]
+      }
+    },
+    "statements": {
+      "APIConsumer": {
+        "0": [
+          [
+            2090,
+            2117,
+            "green",
+            ""
+          ],
+          [
+            2123,
+            2152,
+            "green",
+            ""
+          ],
+          [
+            2839,
+            2866,
+            "green",
+            ""
+          ],
+          [
+            2872,
+            2898,
+            "green",
+            ""
+          ],
+          [
+            1179,
+            1228,
+            "green",
+            ""
+          ],
+          [
+            1234,
+            1247,
+            "green",
+            ""
+          ],
+          [
+            1253,
+            1292,
+            "green",
+            ""
+          ],
+          [
+            1298,
+            1341,
+            "green",
+            ""
+          ]
+        ],
+        "1": [
+          [
+            1981,
+            2057,
+            "green",
+            ""
+          ],
+          [
+            7674,
+            8086,
+            "green",
+            ""
+          ],
+          [
+            3223,
+            3282,
+            "green",
+            ""
+          ],
+          [
+            3288,
+            3313,
+            "green",
+            ""
+          ],
+          [
+            3319,
+            3355,
+            "green",
+            ""
+          ],
+          [
+            3361,
+            3395,
+            "green",
+            ""
+          ],
+          [
+            3401,
+            3509,
+            "green",
+            ""
+          ],
+          [
+            3515,
+            3532,
+            "green",
+            ""
+          ]
+        ],
+        "10": [
+          [
+            4634,
+            4686,
+            "green",
+            ""
+          ],
+          [
+            9645,
+            9692,
+            "green",
+            ""
+          ],
+          [
+            5946,
+            5990,
+            "green",
+            ""
+          ],
+          [
+            1105,
+            1137,
+            "red",
+            ""
+          ],
+          [
+            1191,
+            1214,
+            "green",
+            ""
+          ],
+          [
+            2010,
+            2018,
+            "red",
+            ""
+          ],
+          [
+            2030,
+            2038,
+            "red",
+            ""
+          ],
+          [
+            1876,
+            1895,
+            "red",
+            ""
+          ],
+          [
+            1901,
+            1920,
+            "red",
+            ""
+          ],
+          [
+            2807,
+            2834,
+            "green",
+            ""
+          ],
+          [
+            2879,
+            2924,
+            "red",
+            ""
+          ],
+          [
+            3475,
+            3484,
+            "green",
+            ""
+          ],
+          [
+            3552,
+            3562,
+            "green",
+            ""
+          ],
+          [
+            3570,
+            3579,
+            "green",
+            ""
+          ],
+          [
+            3816,
+            3826,
+            "green",
+            ""
+          ],
+          [
+            8798,
+            8826,
+            "red",
+            ""
+          ],
+          [
+            9277,
+            9287,
+            "green",
+            ""
+          ],
+          [
+            5122,
+            5151,
+            "red",
+            ""
+          ],
+          [
+            5589,
+            5599,
+            "green",
+            ""
+          ]
+        ],
+        "11": [
+          [
+            2425,
+            2488,
+            "red",
+            ""
+          ],
+          [
+            2494,
+            2535,
+            "red",
+            ""
+          ],
+          [
+            2236,
+            2283,
+            "red",
+            ""
+          ],
+          [
+            1838,
+            1868,
+            "red",
+            ""
+          ],
+          [
+            1920,
+            1944,
+            "red",
+            ""
+          ],
+          [
+            1980,
+            2024,
+            "green",
+            ""
+          ],
+          [
+            2045,
+            2103,
+            "red",
+            ""
+          ],
+          [
+            2660,
+            2732,
+            "red",
+            ""
+          ],
+          [
+            2738,
+            2784,
+            "red",
+            ""
+          ],
+          [
+            2913,
+            2968,
+            "green",
+            ""
+          ],
+          [
+            2974,
+            2998,
+            "green",
+            ""
+          ],
+          [
+            834,
+            878,
+            "green",
+            ""
+          ],
+          [
+            917,
+            958,
+            "green",
+            ""
+          ],
+          [
+            966,
+            989,
+            "green",
+            ""
+          ],
+          [
+            1030,
+            1071,
+            "red",
+            ""
+          ],
+          [
+            1079,
+            1102,
+            "red",
+            ""
+          ],
+          [
+            1147,
+            1188,
+            "red",
+            ""
+          ],
+          [
+            1196,
+            1219,
+            "red",
+            ""
+          ],
+          [
+            1272,
+            1313,
+            "green",
+            ""
+          ],
+          [
+            1321,
+            1344,
+            "green",
+            ""
+          ]
+        ],
+        "12": [],
+        "14": [
+          [
+            2278,
+            2294,
+            "green",
+            ""
+          ],
+          [
+            1375,
+            1470,
+            "green",
+            ""
+          ],
+          [
+            1771,
+            1818,
+            "green",
+            ""
+          ],
+          [
+            1944,
+            1980,
+            "green",
+            ""
+          ],
+          [
+            2028,
+            2079,
+            "green",
+            ""
+          ],
+          [
+            2510,
+            2520,
+            "red",
+            ""
+          ]
+        ],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      },
+      "LinkToken": {
+        "0": [
+          [
+            850,
+            901,
+            "green",
+            ""
+          ],
+          [
+            1055,
+            1072,
+            "green",
+            ""
+          ],
+          [
+            523,
+            550,
+            "green",
+            ""
+          ],
+          [
+            556,
+            596,
+            "green",
+            ""
+          ],
+          [
+            631,
+            667,
+            "green",
+            ""
+          ],
+          [
+            679,
+            690,
+            "green",
+            ""
+          ]
+        ],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [
+          [
+            1052,
+            1075,
+            "green",
+            ""
+          ],
+          [
+            610,
+            665,
+            "green",
+            ""
+          ],
+          [
+            671,
+            712,
+            "green",
+            ""
+          ],
+          [
+            718,
+            751,
+            "green",
+            ""
+          ],
+          [
+            757,
+            768,
+            "green",
+            ""
+          ]
+        ],
+        "6": [
+          [
+            1324,
+            1335,
+            "green",
+            ""
+          ],
+          [
+            1341,
+            1356,
+            "green",
+            ""
+          ],
+          [
+            1144,
+            1160,
+            "green",
+            ""
+          ],
+          [
+            1166,
+            1180,
+            "green",
+            ""
+          ]
+        ],
+        "7": [
+          [
+            2126,
+            2158,
+            "red",
+            ""
+          ],
+          [
+            1607,
+            1645,
+            "red",
+            ""
+          ],
+          [
+            1651,
+            1689,
+            "red",
+            ""
+          ],
+          [
+            1695,
+            1706,
+            "red",
+            ""
+          ],
+          [
+            2869,
+            2902,
+            "red",
+            ""
+          ],
+          [
+            2923,
+            2985,
+            "red",
+            ""
+          ],
+          [
+            2997,
+            3058,
+            "red",
+            ""
+          ],
+          [
+            3064,
+            3075,
+            "red",
+            ""
+          ],
+          [
+            2504,
+            2582,
+            "red",
+            ""
+          ],
+          [
+            2588,
+            2649,
+            "red",
+            ""
+          ],
+          [
+            2655,
+            2666,
+            "red",
+            ""
+          ],
+          [
+            1098,
+            1143,
+            "red",
+            ""
+          ],
+          [
+            1149,
+            1190,
+            "red",
+            ""
+          ],
+          [
+            1196,
+            1247,
+            "red",
+            ""
+          ],
+          [
+            1253,
+            1281,
+            "red",
+            ""
+          ],
+          [
+            1287,
+            1298,
+            "red",
+            ""
+          ]
+        ],
+        "8": [
+          [
+            1662,
+            1701,
+            "red",
+            ""
+          ],
+          [
+            1273,
+            1307,
+            "green",
+            ""
+          ],
+          [
+            952,
+            1000,
+            "green",
+            ""
+          ],
+          [
+            2109,
+            2154,
+            "red",
+            ""
+          ]
+        ]
+      },
+      "MockOracle": {
+        "13": [
+          [
+            959,
+            1005,
+            "green",
+            ""
+          ],
+          [
+            1012,
+            1020,
+            "green",
+            ""
+          ]
+        ],
+        "17": [
+          [
+            4967,
+            5050,
+            "red",
+            ""
+          ],
+          [
+            5106,
+            5159,
+            "red",
+            ""
+          ],
+          [
+            5166,
+            5196,
+            "red",
+            ""
+          ],
+          [
+            5202,
+            5238,
+            "red",
+            ""
+          ],
+          [
+            5245,
+            5293,
+            "red",
+            ""
+          ],
+          [
+            3756,
+            3786,
+            "green",
+            ""
+          ],
+          [
+            3792,
+            3876,
+            "green",
+            ""
+          ],
+          [
+            5593,
+            5618,
+            "green",
+            ""
+          ],
+          [
+            2578,
+            2660,
+            "green",
+            ""
+          ],
+          [
+            2764,
+            2857,
+            "green",
+            ""
+          ],
+          [
+            2864,
+            3048,
+            "green",
+            ""
+          ]
+        ],
+        "2": [
+          [
+            1364,
+            1408,
+            "green",
+            ""
+          ]
+        ],
+        "6": [],
+        "8": []
+      },
+      "MockV3Aggregator": {
+        "18": [
+          [
+            2448,
+            2488,
+            "red",
+            ""
+          ],
+          [
+            1829,
+            1961,
+            "red",
+            ""
+          ],
+          [
+            2182,
+            2345,
+            "green",
+            ""
+          ],
+          [
+            1030,
+            1052,
+            "red",
+            ""
+          ],
+          [
+            1058,
+            1091,
+            "red",
+            ""
+          ],
+          [
+            1097,
+            1110,
+            "red",
+            ""
+          ],
+          [
+            1116,
+            1148,
+            "red",
+            ""
+          ],
+          [
+            1154,
+            1197,
+            "red",
+            ""
+          ],
+          [
+            1203,
+            1246,
+            "red",
+            ""
+          ],
+          [
+            1386,
+            1408,
+            "red",
+            ""
+          ],
+          [
+            1414,
+            1436,
+            "red",
+            ""
+          ],
+          [
+            1442,
+            1470,
+            "red",
+            ""
+          ],
+          [
+            1476,
+            1508,
+            "red",
+            ""
+          ],
+          [
+            1514,
+            1552,
+            "red",
+            ""
+          ],
+          [
+            1558,
+            1596,
+            "red",
+            ""
+          ]
+        ],
+        "3": [],
+        "4": [],
+        "5": []
+      },
+      "PriceFeedConsumer": {
+        "16": [],
+        "5": []
+      },
+      "VRFCoordinatorMock": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "5": [
+          [
+            1031,
+            1085,
+            "green",
+            ""
+          ],
+          [
+            666,
+            711,
+            "green",
+            ""
+          ]
+        ]
+      }
+    }
+  },
+  "sha1": {}
+}
